@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="260dp"
+    android:layout_margin="8dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +15,10 @@
             android:id="@+id/ivLogo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            tools:src="@mipmap/ic_launcher"/>
+            tools:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
 
         <TextView
             android:id="@+id/tvTitulo"
